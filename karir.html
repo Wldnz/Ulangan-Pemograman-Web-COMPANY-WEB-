@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="framework/karir.css">
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+   header {
+    height: 80px;
+    /* background: grey; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0 2px 5px black; */
+   }
+   nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+   }
+   nav .menu{
+    color: black;
+    transition: all 200ms linear;
+    text-decoration: none;
+    /* background: green; */
+    border-radius:4px;
+    font-size: 18px;
+   }
+   nav .menu:hover{
+    background:grey;
+   }
+
+   .logoku{
+    height: 50px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 5px 0 0 30px;
+}
+
+.button-signup{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    right:0;
+    margin: 1% 60px 0 0;
+    border-radius: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.button-signup:hover{
+    background: grey;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logoku{
+    height: 40px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+
+    nav {
+        margin-left: 200px;
+    }
+    nav .menu{
+        font-size: 22px;
+    }
+
+    .button-signup{
+        display: none;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logoku{
+    height: 40px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+    nav{
+        margin-left: 200px ;
+    }
+    .button-signup{
+       position: relative;
+       left: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logoku{
+    height: 55px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+    .button-signup{
+        margin-right: 200px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */ 
+
+
+</style>
+<body>
+    <header class="kepala-navigation">
+        <!-- Logo -->
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgEuch5jtALN9eMs7v1Q9kD5loAh1QZnDhUI5XeRjJUIzUPEpZf_W8gcBvQ2R1egYGalgdJI2egztmkPqmLIkP--ktwTpCdJSr4TmtzfQfYwn1VCbl4TORFLl7Eb7B6c-5mm_0mpq1zcgVOj6aULmasfMWCpXDANgbQK-yXgfz9Js3moynxOqxpe-PNlG-S" alt="/image/logo.png" class="logoku">
+        <nav>
+           
+            <!-- Menu -->
+            <a href="index.html" class="menu">Home</a> 
+           <a href="tentang.html" class="menu">Tentang</a>
+           <a href="jasa.html" class="menu">Jasa</a>
+           <a href="team.html" class="menu">Team</a>
+           <a href="paket.html" class="menu">Paket</a>
+           <a href="karir.html" class="menu">Karir</a>
+           <a href="kontak.html" class="menu">Kontak</a>
+        </nav>
+        <!-- <button class="button-signup">SIGN UP</button> -->
+    </header>
+
+
+
+   <section class="karir">
+    <h2>LOWONGAN KERJA</h2>
+    <main class="lowongan">
+        <div class="box">
+            <div class="profile">
+             <img src="image/MICROSFOT.jpeg" alt="">
+             <div class="data">
+             <label>MICROSOFT ENTERTAINMENT</label>
+             <a href="MICROSOFT.COM">MICROSOFT.COM</a>
+             </div>
+            </div>
+            <div class="pekerjaan">
+             <label for="">Developer Website</label>
+             <label>30 JUNI 2024</label>
+            </div>
+            <a href="#formulir">LAMAR KERJA</a>
+         </div>
+         <div class="box">
+            <div class="profile">
+             <img src="image/yahoo.jpeg" alt="" style="height: 100px; width: 100px;">
+             <div class="data">
+             <label>YAHOOO!</label>
+             <br>
+             <a href="yahoo.COM">yahoo.com</a>
+             </div>
+            </div>
+            <div class="pekerjaan">
+             <label for="">Cyber Security</label>
+             <label>12 JUNI 2024</label>
+            </div>
+            <a href="#formulir">LAMAR KERJA</a>
+         </div>
+         <div class="box">
+            <div class="profile">
+             <img src="image/prim-a.jpeg" alt="">
+             <div class="data">
+             <label>PRIM-A (AIR MINUM)</label>
+             <br>
+             <a href="#">PRIM-A</a>
+             </div>
+            </div>
+            <div class="pekerjaan">
+             <label for="">Sales Adverstising</label>
+             <label>18 JUNI 2024</label>
+            </div>
+            <a href="#formulir">LAMAR KERJA</a>
+         </div>
+    </main>
+   </section>
+
+   <section class="formulir-page">
+    <h2>FORMULIR KERJA</h2>
+    <form action="">
+        <label for="#namaLengkap">Nama Lengkap : </label>
+    <input type="text" id="namaPanggilan" required minlength="5">
+    <label for="#namaPanggilan">Nama Panggilan: </label>
+    <input type="text" id="namaPanggilan">
+    <label for="">Jenis Kelamin: </label>
+    <select name="" id="">
+        <option value="0"></option>
+        <option value="1">Laki-Laki</option>
+        <option value="2">Perempuan</option>
+    </select>
+    <label for="">Pekerjaan Yang Dimanati : </label>
+    <select name="" id="">
+        <option value="0"></option>
+        <option value="1">Microsoft</option>
+        <option value="2">Yahoo</option>
+        <option value="3">Prima</option>
+    </select>
+    <label for="#nomorTelp">Nomor Telephone : </label>
+    <input type="number" id="nomorTelp"required minlength="8">
+    <label for="#mail">Email : </label>
+    <input type="email" id="mail" required>
+    <label for="#tanggalLahir">Tanggal : </label>
+    <input type="date" id="tanggalLahir">
+    <br>
+    <!-- Sayarat Dan ketentuan -->
+    <details id="syarat1">
+        <summary>syarat dan Ketentuan<summary>
+            <ul id="syarat2">
+                <li>Sesuai Dengan Bidang Di butuhkan</li>
+                <li>Umur Minimal 23 Tahun</li>
+                <li>Maximal Umur 40 Tahun</li>
+                <li>Minimal Lulusan SMA/SMK/SEDERAJAT</li>
+                <li>PENYAYANG DAN RAJIN IBADAH</li>
+               </ul>
+      </details>
+    <br>
+    <button>SUBMIT</button>
+
+    </form>
+   </section>
+   <script >
+    document.addEventListener("DOMContentLoaded",() => {
+    const syarat1 = document.getElementById("syarat1")
+    const syarat2 = document.getElementById("syarat2")
+    var syaratBool = false
+    syarat2.style.display = "none"
+
+    syarat1.addEventListener("click", () => {
+        if (syaratBool){
+            syarat2.style.display = "none"
+            syaratBool = false
+        }else{
+            syarat2.style.display = "block"
+            syaratBool = true
+        }
+    })
+
+})
+   </script>
+</body>
+</html>

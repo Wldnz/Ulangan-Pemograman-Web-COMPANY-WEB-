@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/framework/home.css">
+    <!-- font -->
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+   header {
+    height: 80px;
+    /* background: grey; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0 2px 5px black; */
+   }
+   nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+   }
+   nav .menu{
+    color: black;
+    transition: all 200ms linear;
+    text-decoration: none;
+    /* background: green; */
+    border-radius:4px;
+    font-size: 18px;
+   }
+   nav .menu:hover{
+    background:grey;
+   }
+
+   .logoku{
+    height: 50px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 5px 0 0 30px;
+}
+
+.button-signup{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    right:0;
+    margin: 1% 60px 0 0;
+    border-radius: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.button-signup:hover{
+    background: grey;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logoku{
+    height: 40px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+
+    nav {
+        margin-left: 200px;
+    }
+    nav .menu{
+        font-size: 22px;
+    }
+
+    .button-signup{
+        display: none;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logoku{
+    height: 40px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+    nav{
+        margin-left: 200px ;
+    }
+    .button-signup{
+       position: relative;
+       left: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logoku{
+    height: 50px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+    .button-signup{
+        margin-right: 200px;
+    }
+}
+</style>
+<body>
+    <!-- navbar -->
+    <header class="kepala-navigation">
+        <!-- Logo -->
+        <img src="/image/logo.png" alt="/image/logo.png" class="logoku">
+        <nav>
+           
+            <!-- Menu -->
+            <a href="index.html" class="menu">Home</a> 
+           <a href="tentang.html" class="menu">Tentang</a>
+           <a href="jasa.html" class="menu">Jasa</a>
+           <a href="team.html" class="menu">Team</a>
+           <a href="paket.html" class="menu">Paket</a>
+           <a href="karir.html" class="menu">Karir</a>
+           <a href="kontak.html" class="menu">Kontak</a>
+           <a href="kontak.html" class="menu">Kontak</a>
+        </nav>
+        <!-- <button class="button-signup">SIGN UP</button> -->
+    </header>
+    <!-- content-->
+    <main class="main-content">
+        <h2>Welcome</h2>
+        <h4>We Have Solution For Your Digital Product</h4>
+        <button id ="button-explore"><h3>EXPLORE</h3></button>
+        <div class="content">
+           <div class="ads">
+            <img src="image/down (1).png" alt="??">
+             <p>Custom Software Development</p>
+           </div>
+           <div class="ads">
+            <img src="image/down (1).png" alt="??">
+             <p>Custom Visual Design Product</p>
+           </div>
+           <div class="ads">
+            <img src="image/down (1).png" alt="??">
+             <p>Custom Visual Branding</p>
+           </div>
+        </div>
+    </main>
+</body>
+<script src="navigation/home.js">
+
+</script>
+</html>

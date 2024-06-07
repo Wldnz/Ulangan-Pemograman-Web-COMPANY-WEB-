@@ -1,0 +1,58 @@
+
+
+h2,p{
+    text-align: center;
+}
+
+.judul{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.parent-service-card{
+    transform: translateX(13%);
+    /* background: red; */
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    width: 80%;
+} 
+
+
+
+.parent-service-card .card{
+    /* margin: 20px ; */
+    /* background: blue; */
+    width: 300px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   box-shadow: 2px 0 5px black;
+   border-radius: 10px;
+}
+
+.parent-service-card .card img{
+    border-radius: 50%;
+    width: 50%;
+    height: 40%;
+    box-shadow: 2px 0 5px black;
+}
+
+
+.parent-service-card .card h2{
+    font-size: 22px;
+}
+
+.parent-service-card button{
+  width: 80%;
+  height: 40px;
+  border-radius: 5PX;
+  border: none;
+  margin: 5px 10px 0 20px;
+  box-shadow: 0 0 5px black;
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="framework/kontak.css">
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+   header {
+    height: 80px;
+    /* background: grey; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0 2px 5px black; */
+   }
+   nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+   }
+   nav .menu{
+    color: black;
+    transition: all 200ms linear;
+    text-decoration: none;
+    /* background: green; */
+    border-radius:4px;
+    font-size: 18px;
+   }
+   nav .menu:hover{
+    background:grey;
+   }
+
+   .logoku{
+    height: 50px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 5px 0 0 30px;
+}
+
+.button-signup{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    right:0;
+    margin: 1% 60px 0 0;
+    border-radius: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.button-signup:hover{
+    background: grey;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logoku{
+    height: 40px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+
+    nav {
+        margin-left: 200px;
+    }
+    nav .menu{
+        font-size: 22px;
+    }
+
+    .button-signup{
+        display: none;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logoku{
+    height: 40px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+    nav{
+        margin-left: 200px ;
+    }
+    .button-signup{
+       position: relative;
+       left: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logoku{
+    height: 55px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+    .button-signup{
+        margin-right: 200px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */ 
+
+
+</style>
+<body>
+    <header class="kepala-navigation">
+        <!-- Logo -->
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgEuch5jtALN9eMs7v1Q9kD5loAh1QZnDhUI5XeRjJUIzUPEpZf_W8gcBvQ2R1egYGalgdJI2egztmkPqmLIkP--ktwTpCdJSr4TmtzfQfYwn1VCbl4TORFLl7Eb7B6c-5mm_0mpq1zcgVOj6aULmasfMWCpXDANgbQK-yXgfz9Js3moynxOqxpe-PNlG-S" alt="/image/logo.png" class="logoku">
+        <nav>
+           
+            <!-- Menu -->
+           <a href="index.html" class="menu">Home</a> 
+           <a href="tentang.html" class="menu">Tentang</a>
+           <a href="jasa.html" class="menu">Jasa</a>
+           <a href="team.html" class="menu">Team</a>
+           <a href="paket.html" class="menu">Paket</a>
+           <a href="karir.html" class="menu">Karir</a>
+           <a href="kontak.html" class="menu">Kontak</a>
+        </nav>
+        <!-- <button class="button-signup">SIGN UP</button> -->
+    </header>
+    <section class="kontak">
+        <h2>HUBUNGI KAMI</h2>
+        <div class="sesi">
+            <img src="image/maps-and-flags.png" alt="">
+            <div class="text">
+                <h4>Lokasi</h4>
+                <p>Jl. Tegal Rotan Raya No.9 A, Sawah Baru, Kec. Ciputat, Kota Tangerang Selatan, Banten 15412</p>
+            </div>
+            <img src="image/clock.png" alt="">
+            <div class="text">
+                <h4>Lokasi</h4>
+                <p>Senin - Jum'at : </p>
+                <p>08:00 AM - 22:00 PM</p>
+            </div>
+            <img src="image/envelope.png" alt="">
+            <div class="text">
+                <h4>Email : </h4>
+                <p>biproduction@gmail.com</p>
+            </div>
+            <img src="image/whatsapp.png" alt="">
+            <div class="text">
+                <h4>Hubungi Melalui Wa : </h4>
+                <p>(62+) 815-2576-0935</p>
+            </div>
+        </div>
+        <form action="" class="format-contact">
+            <input type="text" placeholder="Nama"  required>
+            <input type="email" placeholder="Email"  required>
+            <input type="text" placeholder="Subject">
+           <textarea name="" id="" placeholder="Pesan"></textarea>
+           <button>Submit</button>
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.6371207852244!2d106.72189747475115!3d-6.281497693707392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f0754ef56067%3A0x8220dbf978d54527!2sSMK%20Bina%20Informatika!5e1!3m2!1sid!2sid!4v1717748764775!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>

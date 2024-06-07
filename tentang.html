@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="framework/tentang.css">
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+   header {
+    height: 80px;
+    /* background: grey; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0 2px 5px black; */
+   }
+   nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+   }
+   nav .menu{
+    color: black;
+    transition: all 200ms linear;
+    text-decoration: none;
+    /* background: green; */
+    border-radius:4px;
+    font-size: 18px;
+   }
+   nav .menu:hover{
+    background:grey;
+   }
+
+   .logoku{
+    height: 50px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 5px 0 0 30px;
+}
+
+.button-signup{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    right:0;
+    margin: 1% 60px 0 0;
+    border-radius: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.button-signup:hover{
+    background: grey;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logoku{
+    height: 40px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+
+    nav {
+        margin-left: 200px;
+    }
+    nav .menu{
+        font-size: 22px;
+    }
+
+    .button-signup{
+        display: none;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logoku{
+    height: 40px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+    nav{
+        margin-left: 200px ;
+    }
+    .button-signup{
+       position: relative;
+       left: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logoku{
+    height: 55px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+    .button-signup{
+        margin-right: 200px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */ 
+
+
+</style>
+<body>
+    <!-- navbar -->
+    <header class="kepala-navigation">
+        <!-- Logo -->
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgEuch5jtALN9eMs7v1Q9kD5loAh1QZnDhUI5XeRjJUIzUPEpZf_W8gcBvQ2R1egYGalgdJI2egztmkPqmLIkP--ktwTpCdJSr4TmtzfQfYwn1VCbl4TORFLl7Eb7B6c-5mm_0mpq1zcgVOj6aULmasfMWCpXDANgbQK-yXgfz9Js3moynxOqxpe-PNlG-S" alt="/image/logo.png" class="logoku">
+        <nav>
+           
+            <!-- Menu -->
+            <a href="index.html" class="menu">Home</a> 
+           <a href="tentang.html" class="menu">Tentang</a>
+           <a href="jasa.html" class="menu">Jasa</a>
+           <a href="team.html" class="menu">Team</a>
+           <a href="paket.html" class="menu">Paket</a>
+           <a href="karir.html" class="menu">Karir</a>
+           <a href="kontak.html" class="menu">Kontak</a>
+        </nav>
+        <button class="button-signup">SIGN UP</button>
+    </header>
+   <main class="main-content">
+    <img src="image/sejarah.jpg" alt="sejarah">
+    <h2>SEJARAH PERUSAHAAN</h2>
+    <p>BI Production didirikan pada tahun 2024 dengan tujuan memberikan solusi digital inovatif yang dapat membantu bisnis dan individu untuk berkembang di era digital. Berawal dari tim kecil yang terdiri dari para profesional kreatif dan teknis, BI Production telah tumbuh menjadi perusahaan yang diakui di industri teknologi digital.</p>
+    <P>Pada awal perjalanan, kami fokus pada pengembangan website dan aplikasi mobile untuk klien lokal. Seiring dengan bertambahnya pengalaman dan keahlian, kami memperluas layanan kami mencakup digital advertising, branding, dan berbagai produk digital lainnya. Dengan komitmen untuk selalu memberikan kualitas terbaik, BI Production terus berinovasi dan memperbarui teknologi untuk memenuhi kebutuhan klien yang terus berkembang.
+    </P>
+    <P>Kami bangga telah bekerjasama dengan berbagai perusahaan dari berbagai industri, membantu mereka untuk mencapai tujuan bisnis mereka melalui solusi digital yang efektif dan kreatif.</P>
+    <!-- foto perusahaan -->
+    <!-- visi -->
+    <img src="image/visi.jpg" alt="visi" style=" height : 400px; border-radius: 5px;">
+    <h2>VISI</h2>
+    <p>Menjadi pemimpin dalam penyediaan solusi digital yang inovatif dan terintegrasi, yang dapat memberikan dampak positif bagi bisnis dan masyarakat di seluruh dunia.</p>
+    <!-- misi -->
+    <img src="image/misi.jpg" alt="misi">
+    <h2>MISI</h2>
+    <p>Inovasi Terdepan: Mengembangkan teknologi dan layanan digital terbaru yang dapat membantu klien kami untuk tetap kompetitif di pasar global.
+        Kualitas dan Kepuasan Klien: Memberikan produk dan layanan berkualitas tinggi dengan fokus pada kepuasan klien melalui pendekatan yang personal dan profesional.
+        Pemberdayaan Tim: Menciptakan lingkungan kerja yang inspiratif dan kolaboratif dimana setiap anggota tim dapat berkembang dan memberikan kontribusi terbaik mereka.
+        Keberlanjutan: Menerapkan praktik bisnis yang berkelanjutan dan etis dalam setiap aspek operasional kami.
+        Kolaborasi dan Kemitraan: Membangun hubungan jangka panjang dengan klien, mitra, dan komunitas untuk mencapai kesuksesan bersama.</p>
+    <!-- Kesimpulannya -->
+    <p>Dengan sejarah yang kuat dan visi misi yang jelas, BI Production berkomitmen untuk terus berkembang dan menjadi mitra digital terpercaya bagi setiap bisnis yang ingin mencapai kesuksesan di era digital.</p>
+   </main>
+</body>
+</html>

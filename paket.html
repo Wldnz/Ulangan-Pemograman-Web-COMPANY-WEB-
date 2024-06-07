@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="framework/paket.css">
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+   header {
+    height: 80px;
+    /* background: grey; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0 2px 5px black; */
+   }
+   nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+   }
+   nav .menu{
+    color: black;
+    transition: all 200ms linear;
+    text-decoration: none;
+    /* background: green; */
+    border-radius:4px;
+    font-size: 18px;
+   }
+   nav .menu:hover{
+    background:grey;
+   }
+
+   .logoku{
+    height: 50px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 5px 0 0 30px;
+}
+
+.button-signup{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    right:0;
+    margin: 1% 60px 0 0;
+    border-radius: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.button-signup:hover{
+    background: grey;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logoku{
+    height: 40px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+
+    nav {
+        margin-left: 200px;
+    }
+    nav .menu{
+        font-size: 22px;
+    }
+
+    .button-signup{
+        display: none;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logoku{
+    height: 40px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+    nav{
+        margin-left: 200px ;
+    }
+    .button-signup{
+       position: relative;
+       left: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logoku{
+    height: 55px;
+    position: absolute;
+    /* top: 0; */
+    left:0;
+    margin: 20px 0 0 30px;
+    }
+    .button-signup{
+        margin-right: 200px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */ 
+
+
+</style>
+<body>
+    <header class="kepala-navigation">
+        <!-- Logo -->
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgEuch5jtALN9eMs7v1Q9kD5loAh1QZnDhUI5XeRjJUIzUPEpZf_W8gcBvQ2R1egYGalgdJI2egztmkPqmLIkP--ktwTpCdJSr4TmtzfQfYwn1VCbl4TORFLl7Eb7B6c-5mm_0mpq1zcgVOj6aULmasfMWCpXDANgbQK-yXgfz9Js3moynxOqxpe-PNlG-S" alt="/image/logo.png" class="logoku">
+        <nav>
+           
+            <!-- Menu -->
+            <a href="index.html" class="menu">Home</a> 
+            <a href="tentang.html" class="menu">Tentang</a>
+            <a href="jasa.html" class="menu">Jasa</a>
+            <a href="team.html" class="menu">Team</a>
+            <a href="paket.html" class="menu">Paket</a>
+            <a href="karir.html" class="menu">Karir</a>
+            <a href="kontak.html" class="menu">Kontak</a>
+        </nav>
+        <!-- <button class="button-signup">SIGN UP</button> -->
+    </header>
+    <div class="judul">
+        <h2>Paket Pembuat Jasa</h2>
+   <p>Dapatkan Paket Untuk Layanan Digital Untuk Membantu Tranformasi Bisnis Anda Di Era Digital</p>
+    </div>
+   <section class="parent-service-card">
+    <div class="card">
+        <h3>Bronze</h3>
+        <h4>
+            Rp : 50.000
+        </h4>
+        <p style="width:90%; margin-left: 20px;">Paket Bronze dirancang untuk bisnis kecil atau individu yang baru memulai perjalanan digital mereka. Paket ini mencakup layanan dasar untuk membangun fondasi online yang solid.</p>
+        <br>
+        <ul>
+            <li>Pembuatan Website: Desain website responsif dasar dengan hingga 5 halaman.</li>
+            <li>Pengembangan Aplikasi Mobile: Aplikasi sederhana dengan fitur dasar.</li>
+            <li>Branding: Desain logo dasar dan panduan brand.
+                Content Creative: Pembuatan 5 artikel blog atau posting media sosial per bulan.</li>
+            <li>
+                Digital Marketing: Setup dasar SEO dan kampanye media sosial.
+            </li>
+            <li>Advertising: Manajemen kampanye iklan dengan anggaran terbatas di platform pilihan (Facebook atau Google).</li>
+        </ul>
+        <br>
+        <button class="">BERLANGGANAN</button>
+    </div>
+    <div class="card">
+        <h3>SILVER</h3>
+        <h4>
+            Rp : 100.000
+        </h4>
+        <p>Paket Silver ideal untuk bisnis yang ingin memperluas kehadiran digital mereka dengan lebih banyak fitur dan strategi pemasaran yang lebih canggih.</p>
+        <br>
+        <ul>
+            <li>Pembuatan Website: Desain website responsif menengah dengan hingga 10 halaman, termasuk integrasi e-commerce.</li>
+            <li>Pengembangan Aplikasi Mobile: Aplikasi dengan fitur menengah, termasuk integrasi API.</li>
+            <li>Branding: Desain logo, panduan brand lengkap, dan materi pemasaran tambahan.</li>
+            <li>
+                Content Creative: Pembuatan 10 artikel blog atau posting media sosial per bulan.
+            </li>
+            <li>Advertising: Manajemen kampanye iklan dengan anggaran menengah di berbagai platform (Facebook, Google, Instagram).</li>
+        </ul>
+        <br>
+        <br>
+        <button class="">BERLANGGANAN</button>
+    </div>
+    <div class="card">
+        <h3>GOLD</h3>
+        <h4>
+            Rp : 150.000
+        </h4>
+        <p>Paket Emas adalah solusi lengkap untuk bisnis yang ingin memaksimalkan potensi digital mereka dengan layanan premium dan strategi yang komprehensif.</p>
+        <br>
+        <ul>
+            <li>Pembuatan Website: Desain website kustom dengan fitur-fitur canggih, hingga 20 halaman, dan dukungan penuh e-commerce.</li>
+            <li>Pengembangan Aplikasi Mobile: Aplikasi dengan fitur lanjutan dan kustomisasi penuh.</li>
+            <li>Content Creative: Pembuatan 20 artikel blog atau posting media sosial per bulan, termasuk video dan infografis.
+                Digital Marketing: Strategi SEO canggih, manajemen kampanye media sosial, email marketing, dan analisis data mendalam.</li>
+            <li>
+                Advertising: Manajemen kampanye iklan dengan anggaran besar di berbagai platform (Facebook, Google, Instagram, LinkedIn).
+            </li>
+        </ul>
+        <br>
+        <button class="">BERLANGGANAN</button>
+    </div>
+   </section>
+</body>
+</html>

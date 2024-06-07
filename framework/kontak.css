@@ -1,0 +1,58 @@
+
+.kontak{
+    margin-top: 50px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* background: grey;     */
+    width: 85%;
+}
+
+.kontak h2{
+    font-size: 50px;
+}
+
+.kontak .sesi{
+    display: flex;
+    gap: 20px;
+    background: rgb(99, 80, 80);
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.kontak .sesi img{
+    background: whitesmoke;
+    border-radius: 50%;
+    height: 30px;
+}
+
+.kontak .sesi .text p{
+    width: 150px;
+    margin-right: 25PX;
+}
+
+.kontak .format-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontak .format-contact input,textarea,button{
+    width: 70%;
+    height: 50px;
+}
+
+.kontak .format-contact button{
+    width: 60%;
+    /* background: blue; */
+    /* color: white; */
+    font-size: 25px;
+    border-radius: 10px;
+}

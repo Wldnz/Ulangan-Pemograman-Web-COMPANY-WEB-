@@ -1,0 +1,63 @@
+
+
+
+h2,p{
+    text-align: center;
+}
+
+.judul{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.parent-service-card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.parent-service-card .card{
+    width: 30%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px grey;
+    /* color: white; */
+    font-weight: 400;
+}
+
+
+.parent-service-card .card h3{
+    font-size: 50px;
+    text-shadow: 0 0 5px white;
+}
+
+.parent-service-card .card h4{
+    /* background: green; */
+    /* width: 40%; */
+    text-align: center;
+    font-size: 25px;
+    /* font-style: italic; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.parent-service-card .card ul li{
+    text-align: start;
+}
+
+.parent-service-card .card button{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background: blue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
